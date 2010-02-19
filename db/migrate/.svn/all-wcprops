@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/8/trunk/db/migrate
+END
+20100124214103_create_sessions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/8/trunk/db/migrate/20100124214103_create_sessions.rb
+END
+20100124211754_alter_users_for_authlogic.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/8/trunk/db/migrate/20100124211754_alter_users_for_authlogic.rb
+END
+20100124014504_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/6/trunk/db/migrate/20100124014504_create_users.rb
+END
