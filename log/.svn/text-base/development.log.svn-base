@@ -286,7 +286,7 @@ ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if 
 1: <h1>HOME DA APLICACAO!!!</h1>
 2: <% form_for(@usuario) do |f| %>
 3:   <%= f.error_messages %>
-4: 
+4:
 5:   <p>
 
     vendor/rails/actionpack/lib/action_controller/record_identifier.rb:72:in `dom_id'
@@ -378,7 +378,7 @@ ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #2 of ho
 1: <h1>HOME DA APLICACAO!!!</h1>
 2: <% form_for do |f| %>
 3:   <%= f.error_messages %>
-4: 
+4:
 5:   <p>
 
     app/views/home/index.html.erb:2:in `form_for'
@@ -467,7 +467,7 @@ ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #2 of ho
 1: <h1>HOME DA APLICACAO!!!</h1>
 2: <% form do |f| %>
 3:   <%= f.error_messages %>
-4: 
+4:
 5:   <p>
 
     app/views/home/index.html.erb:2:in `form'
@@ -558,7 +558,7 @@ The error occurred while evaluating nil.new_record?) on line #2 of home/index.ht
 1: <h1>HOME DA APLICACAO!!!</h1>
 2: <% form 'aaa' do |f| %>
 3:   <%= f.error_messages %>
-4: 
+4:
 5:   <p>
 
     vendor/rails/actionpack/lib/action_view/helpers/active_record_helper.rb:79:in `form'
@@ -1452,7 +1452,7 @@ Rendering home/index
 ActionView::TemplateError (undefined local variable or method `home_path' for #<ActionView::Base:0x7f9d2c765928>) on line #2 of home/index.html.erb:
 1: <h1>HOME DA APLICACAO!!!</h1>
 2: <% form_tag home_path do -%>
-3: 
+3:
 4:   <div class = "field">
 5:     <%= label_tag 'login', 'Login' %>
 
@@ -3486,7 +3486,7 @@ You might have expected an instance of Array.
 The error occurred while evaluating nil.each) on line #7 of app/views/users/index.html.erb:
 4:   <tr>
 5:   </tr>
-6: 
+6:
 7: <% @users.each do |user| %>
 8:   <tr>
 9:     <td><%= link_to 'Show', user %></td>
@@ -3520,7 +3520,7 @@ You might have expected an instance of Array.
 The error occurred while evaluating nil.each) on line #7 of app/views/users/index.html.erb:
 4:   <tr>
 5:   </tr>
-6: 
+6:
 7: <% @users.each do |user| %>
 8:   <tr>
 9:     <td><%= link_to 'Show', user %></td>
@@ -3578,7 +3578,7 @@ You might have expected an instance of Array.
 The error occurred while evaluating nil.each) on line #7 of app/views/users/index.html.erb:
 4:   <tr>
 5:   </tr>
-6: 
+6:
 7: <% @users.each do |user| %>
 8:   <tr>
 9:     <td><%= link_to 'Show', user %></td>
@@ -4143,7 +4143,7 @@ Rendering users/new
 
 ActionView::TemplateError (undefined local variable or method `account_path' for #<ActionView::Base:0xb6147394>) on line #3 of app/views/users/new.html.erb:
 1: <h1>Register</h1>
-2: 
+2:
 3: <% form_for @user, :url => account_path do |f| %>
 4:   <%= f.error_messages %>
 5:   <%= render :partial => "form", :object => f %>
@@ -4176,7 +4176,7 @@ Rendering users/new
 
 ActionView::TemplateError (user_url failed to generate from {:action=>"show", :controller=>"users"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["users", :id] - are they all satisfied?) on line #3 of app/views/users/new.html.erb:
 1: <h1>Register</h1>
-2: 
+2:
 3: <% form_for @user, :url => user_path do |f| %>
 4:   <%= f.error_messages %>
 5:   <%= render :partial => "form", :object => f %>
@@ -4509,7 +4509,7 @@ ActionView::TemplateError (undefined method `login' for #<User:0xb5f717b8>) on l
 2:   <b>Login:</b>
 3:   <%=h @user.login %>
 4: </p>
-5: 
+5:
 6: <p>
 
     app/views/users/show.html.erb:3
